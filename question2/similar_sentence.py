@@ -2,7 +2,7 @@ import scipy.spatial
 import re
 import tensorflow_hub as hub
 
-module_url = "/Users/ishwarsawale/Downloads/4"
+module_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
 model = hub.load(module_url)
 
 
